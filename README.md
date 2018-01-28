@@ -1,5 +1,5 @@
 # About
-[![Build Status](https://circleci.com/gh/tsq-test/algo/tree/dev.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/tsq-test/algo/tree/dev)
+[![Build Status](https://circleci.com/gh/tsq-test/algo/tree/master.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/tsq-test/algo/tree/master)
 
 
 mastering data structures and algorithms using javascript es6

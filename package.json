@@ -1,9 +1,11 @@
 {
   "name": "algo",
   "version": "1.0.0",
-  "description": "",
+  "description": "learn structures and algorithms using javascript",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "watch": "jest --watchAll",
     "test": "jest"
   },
   "repository": {
@@ -11,8 +13,8 @@
     "url": "git+https://github.com/tsq-test/algo.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "tsq<i@tsq.me>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tsq-test/algo/issues"
   },

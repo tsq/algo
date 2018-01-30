@@ -12,7 +12,36 @@ npm install && npm test
 
 ### List
 
-* [reverse string](./reversestring/index.js)
+* [String Reversal](./reversestring/index.js)
+* [Paldinromes]()
+* [Integer Reversal]()
+* [MaxChars]()
+* [The Classic FizzBuzz]()
+* [Array Chunking]()
+* [Anagrams]()
+* [Sentence Capitalization]()
+* [Printing Steps]()
+* [Two Sided Steps - Pyramids]()
+* [Find The Vowels]()
+* [Enter the Matrix Spiral]()
+* [Runtime Complexity]()
+* [Runtime Complexity in Practice - Fibonacci]()
+* [The Queue]()
+* [Underwater Queue Weaving]()
+* [Stack Em Up With Stacks]()
+* [Two Become One]()
+* [Linked Lists]()
+* [Find the Midpoint]()
+* [Circular Lists]()
+* [Step Back From teh Tail]()
+* [Building a Tree]()
+* [Tree Width with Level Width]()
+* [My Best Friend, Binary Search Trees]()
+* [Validating a Binary Search Tree]()
+* [Back to Javascript - Events]()
+* [Sorting With BubbleSort]()
+* [Sorting By Selection]()
+* [Ack, MergeSort]()
 
 ### Debug
 

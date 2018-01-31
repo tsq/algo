@@ -13,7 +13,7 @@ npm install && npm test
 ### List
 
 * [String Reversal](./reversestring/index.js)
-* [Paldinromes]()
+* [Paldinromes](./paldinromes/index.js)
 * [Integer Reversal]()
 * [MaxChars]()
 * [The Classic FizzBuzz]()

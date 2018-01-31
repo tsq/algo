@@ -17,7 +17,7 @@ npm install && npm test
 * [Integer Reversal](./reversestring/index.js)
 * [MaxChars](./maxchar/index.js)
 * [The Classic FizzBuzz](./fizzbuzz/index.js)
-* [Array Chunking]()
+* [Array Chunking](./arraychunk/index.js)
 * [Anagrams]()
 * [Sentence Capitalization]()
 * [Printing Steps]()

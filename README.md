@@ -18,7 +18,7 @@ npm install && npm test
 * [MaxChars](./maxchar/index.js)
 * [The Classic FizzBuzz](./fizzbuzz/index.js)
 * [Array Chunking](./arraychunk/index.js)
-* [Anagrams]()
+* [Anagrams](./anagrams/index.js)
 * [Sentence Capitalization]()
 * [Printing Steps]()
 * [Two Sided Steps - Pyramids]()

@@ -19,7 +19,7 @@ npm install && npm test
 * [The Classic FizzBuzz](./fizzbuzz/index.js)
 * [Array Chunking](./arraychunk/index.js)
 * [Anagrams](./anagrams/index.js)
-* [Sentence Capitalization]()
+* [Sentence Capitalization](./capitalize/index.js)
 * [Printing Steps]()
 * [Two Sided Steps - Pyramids]()
 * [Find The Vowels]()

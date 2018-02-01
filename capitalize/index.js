@@ -7,6 +7,35 @@
 // capitalize('look, it is working') --> 'Look, It Is Working'
 
 /**
+ * solution2
+ * step:
+ * 1. create an empty string called 'result'
+ * 2. for each character in the string
+ *    IF the character to the left a space
+ *      capitalize it and add it to 'result'
+ *    ELSE
+ *      add it to 'result'
+ */
+function capitalize(str) {
+  let result = '';
+  for(let i = 0; i < str.length; i++) {
+    const left = str[i - 1];
+    if (left === ' ') {
+      result += str[i].toUpperCase();
+    } else {
+      if (i === 0) {
+        result += str[i].toUpperCase(); // the first it a exception, it must be uppercase
+      } else {
+        result += str[i];
+      }
+    }
+  }
+  return result;
+}
+console.log(capitalize('a lazy fox'));
+module.exports = capitalize;
+
+/**
  * solution1
  * step:
  * 1. make an empty array 'words'
@@ -17,13 +46,12 @@
  *    push result into 'words' array
  * 4. join 'words' into a string and return it
  */
-function capitalize(str) {
-  const words = [];
-  const strArr = str.split(' ');
-  strArr.forEach(item => {
-    const word = item[0].toUpperCase() + item.slice(1);
-    words.push(word);
-  });
-  return words.join(' ');
-}
-module.exports = capitalize;
+// function capitalize(str) {
+//   const words = [];
+//   const strArr = str.split(' ');
+//   strArr.forEach(item => {
+//     const word = item[0].toUpperCase() + item.slice(1);
+//     words.push(word);
+//   });
+//   return words.join(' ');
+// }

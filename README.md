@@ -20,7 +20,7 @@ npm install && npm test
 * [Array Chunking](./arraychunk/index.js)
 * [Anagrams](./anagrams/index.js)
 * [Sentence Capitalization](./capitalize/index.js)
-* [Printing Steps]()
+* [Printing Steps](./steps/index.js)
 * [Two Sided Steps - Pyramids]()
 * [Find The Vowels]()
 * [Enter the Matrix Spiral]()

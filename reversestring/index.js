@@ -1,19 +1,19 @@
 // --- Directions
 // Given a string, return a new string with the reversed order of characters
 // --- Examples
-// reverse('apple') === 'alppa'
-// reverse('hello') === 'ollel'
-// reverse('Greetings!') === '!sgniteerG'
+// reverseString('apple') === 'alppa'
+// reverseString('hello') === 'ollel'
+// reverseString('Greetings!') === '!sgniteerG'
 
 /**
  * solution3
  * step: use reduce
  */
-function reverse(str) {
+function reverseString(str) {
   return str.split('').reduce((reversed, character) => character + reversed, '');
 }
 
-module.exports = reverse;
+module.exports = reverseString;
 
 
 /**
@@ -24,7 +24,7 @@ module.exports = reverse;
  * 3. join the array back into a string
  * 4. return the result
  */
-// function reverse(str) {
+// function reverseString(str) {
 //   return str.split('').reverse().join('');
 // }
 
@@ -36,7 +36,7 @@ module.exports = reverse;
  *    take the character and add it to the start of 'reversed'
  * 3. return the variable 'reversed'
  */
-// function reverse(str) {
+// function reverseString(str) {
 //   let reversed = '';
 //   for (let character of str) {
 //     reversed = character + reversed;

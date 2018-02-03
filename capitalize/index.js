@@ -32,7 +32,6 @@ function capitalize(str) {
   }
   return result;
 }
-console.log(capitalize('a lazy fox'));
 module.exports = capitalize;
 
 /**

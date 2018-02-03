@@ -21,7 +21,7 @@ npm install && npm test
 * [Anagrams](./anagrams/index.js)
 * [Sentence Capitalization](./capitalize/index.js)
 * [Printing Steps](./steps/index.js)
-* [Two Sided Steps - Pyramids]()
+* [Two Sided Steps - Pyramids](./pyramid/index.js)
 * [Find The Vowels]()
 * [Enter the Matrix Spiral]()
 * [Runtime Complexity]()

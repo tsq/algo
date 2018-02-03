@@ -22,7 +22,7 @@ npm install && npm test
 * [Sentence Capitalization](./capitalize/index.js)
 * [Printing Steps](./steps/index.js)
 * [Two Sided Steps - Pyramids](./pyramid/index.js)
-* [Find The Vowels]()
+* [Find The Vowels](./vowels/index.js)
 * [Enter the Matrix Spiral]()
 * [Runtime Complexity]()
 * [Runtime Complexity in Practice - Fibonacci]()

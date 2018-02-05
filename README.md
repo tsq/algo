@@ -38,9 +38,8 @@ Ways of organizing information with optimal runtime complexity for adding or rem
 | [Underwater Queue Weaving](./weave/index.js)                          | :star: :star: :star:                                                     
 | [The Stack](./stack/index.js)                                         | :star:                                                     
 | [Queue from Stack](./qfroms/index.js)                                 | :star: :star: :star:                                                   
+| [Linked Lists](./linkedlist/index.js)                                 | :star: :star: :star: :star: :star:                                                   
 
-* [Queue from Stack](./qfroms/index.js)
-* [Linked Lists]()
 * [Find the Midpoint]()
 * [Circular Lists]()
 * [Step Back From teh Tail]()
@@ -85,6 +84,10 @@ Array       pop     -> pop
             slice    
 
 ```
+
+**Linked Lists**
+
+
 
 ### Runtime complexity
 

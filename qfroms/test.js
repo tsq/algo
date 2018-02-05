@@ -1,39 +1,47 @@
-const Stack = require("./index");
+const Queue = require("./index");
 
-test('Stack is a class', () => {
-  expect(typeof Stack.prototype.constructor).toEqual('function');
+test('Queue is a class', () => {
+  expect(typeof Queue.prototype.constructor).toEqual('function');
 });
 
-test('stack can add remove items', () => {
-  const s = new Stack();
-  s.push(1);
-  expect(s.pop()).toEqual(1);
-  s.push(2);
-  expect(s.pop()).toEqual(2);
+test('can add a elements to a queue', () => {
+  const q = new Queue();
+  expect(() => {
+    q.add(1);
+  }).not.toThrow();
 });
 
-test('stack can follows first in, last out', () => {
-  const s = new Stack();
-  s.push(1);
-  s.push(2);
-  s.push(3);
-  expect(s.pop()).toEqual(3);
-  expect(s.pop()).toEqual(2);
-  expect(s.pop()).toEqual(1);
+
+test('can remove elements from a queue', () => {
+  const q = new Queue();
+  expect(() => {
+    q.add(1);
+    q.remove();
+  }).not.toThrow();
 });
 
-test('peek returns the first element but does not pop it', () => {
-  const s = new Stack();
-  s.push(1);
-  s.push(2);
-  s.push(3);
-  expect(s.peek()).toEqual(3);
-  expect(s.pop()).toEqual(3);
-  expect(s.peek()).toEqual(2);
-  expect(s.pop()).toEqual(2);
-  expect(s.peek()).toEqual(1);
-  expect(s.pop()).toEqual(1);
+test('Order of elemetns is maintained', () => {
+  const q = new Queue();
+  q.add(1);
+  q.add(2);
+  q.add(3);
+  expect(q.remove()).toEqual(1);
+  expect(q.remove()).toEqual(2);
+  expect(q.remove()).toEqual(3);
+  expect(q.remove()).toEqual(undefined);
 });
+
+test('peek returns, but does not remove, the first value', () => {
+  const q = new Queue();
+  q.add(1);
+  q.add(2);
+  expect(q.peek()).toEqual(1);
+  expect(q.peek()).toEqual(1);
+  expect(q.remove()).toEqual(1);
+  expect(q.remove()).toEqual(2);
+});
+
+
 
 
 

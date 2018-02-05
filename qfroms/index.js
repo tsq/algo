@@ -1,31 +1,53 @@
 // --- Directions
-// Create a stack data structure. The stack
-// should be a class with methods 'push', 'pop', and 'peek'
-// Adding an element to the stack should store it until it is removed.
+// Implement a Queue data structure using two stacks.
+// Do not create an array inside of the 'Queue' class.
+// Queue should implement the methods 'add', 'remove', and 'peek'.
 
 // --- Examples
-// const s = new Stack();
-// s.push(1);
-// s.push(2);
-// s.pop();   // return 2
-// s.pop();   // return 1
+//  const q = new Queue();
+//  q.add(1);
+//  q.add(2);
+//  q.peek(); // return 1
+//  q.remove(); // return 1
+//  q.remove(); // return 2
 
-class Stack {
+const Stack = require("./stack");
+
+class Queue {
   constructor() {
-    this.data = [];
+    this.oneStack = new Stack();
+    this.twoStack = new Stack();
   }
 
-  push(record) {
-    this.data.push(record);
+  add(record) {
+    this.oneStack.push(record);
   }
 
-  pop() {
-    return this.data.pop();
+  remove() {
+    const one = this.oneStack;
+    const two = this.twoStack;
+    while (one.peek()) {
+      two.push(one.pop());
+    }
+    const result = two.pop();
+    while (two.peek()) {
+      one.push(two.pop());
+    }
+    return result;
   }
 
   peek() {
-    return this.data[this.data.length - 1];
+    const one = this.oneStack;
+    const two = this.twoStack;
+    while (one.peek()) {
+      two.push(one.pop());
+    }
+    const result = two.peek();
+    while (two.peek()) {
+      one.push(two.pop());
+    }
+    return result;
   }
 }
 
-module.exports = Stack;
+module.exports = Queue;

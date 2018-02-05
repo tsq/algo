@@ -10,7 +10,7 @@ mastering data structures and algorithms using javascript
 npm install && npm test 
 ```
 
-### List
+### Algorithms
 
 | Question                                                              | Difficulty                                                        
 | --------------------------------------------------------------------- | ------------------------
@@ -28,8 +28,14 @@ npm install && npm test
 | [Enter the Matrix Spiral](./matrix/index.js)                          | :star: :star: :star: :star:                                                      
 | [Fibonacci](./fib/index.js)                                           | :star: :star: :star:                                                     
 
+### Data Structure
+Ways of organizing information with optimal 'runtime' complexity for adding or removing records.
 
-* [The Queue]()
+
+| Question                                                              | Difficulty                                                        
+| --------------------------------------------------------------------- | ------------------------
+| [The Queue](./queue/index.js)                                         | :star:                                                     
+
 * [Underwater Queue Weaving]()
 * [Stack Em Up With Stacks]()
 * [Two Become One]()
@@ -45,6 +51,22 @@ npm install && npm test
 * [Sorting With BubbleSort]()
 * [Sorting By Selection]()
 * [Ack, MergeSort]()
+
+##### Queue
+
+**FIFO**
+
+Queue Class
+
+```     
+            shift
+            unshift  -> add
+            push
+Array       pop      -> remove
+            splice
+            slice    
+
+```
 
 ### Runtime complexity
 

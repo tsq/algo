@@ -2,7 +2,7 @@
 [![Build Status](https://circleci.com/gh/tsq-test/algo/tree/master.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/tsq-test/algo/tree/master)
 
 
-mastering data structures and algorithms using javascript es6
+mastering data structures and algorithms using javascript
 
 ### Check 
 
@@ -28,8 +28,6 @@ npm install && npm test
 | [Enter the Matrix Spiral](./matrix/index.js)                          | :star: :star: :star: :star:                                                      
 
 
-* [Runtime Complexity]()
-* [Runtime Complexity in Practice - Fibonacci]()
 * [The Queue]()
 * [Underwater Queue Weaving]()
 * [Stack Em Up With Stacks]()
@@ -47,15 +45,6 @@ npm install && npm test
 * [Sorting By Selection]()
 * [Ack, MergeSort]()
 
-### Debug
-
-1. Add a `debugger` statement in your function
-2. Call the function manually
-3. At the terminal, run `node inspect index.js`
-4. To continue execution of the file, press `c` then `enter`
-5. To lanch a `repl` session, type `repl` then `enter`
-6. To exit the `repl`, press Control + C
-
 ### Runtime complexity
 
 Describes the performance of an algorithm. 
@@ -68,3 +57,36 @@ Describes the performance of an algorithm.
 | Quasilinear Time      | `n * log(n)`  | You have this if doubling the number of elements you <br/> are iterating over doesn't double the amount of work. <br/> Always assume that any sorting operating is  n*log(n)
 | Quadratic Time        | `n^2`         | Every element in a collection has to be compared to <br/> every other element. `The handshake problem`
 | Exponential Time      | `2^n`         | If you add a 'single' element to a collection, the <br/> processing power required doubles.
+
+
+**Big O Notation**
+
+```
+O(n)        ->      Linear
+O(1)        ->      Constant
+O(n^2)      ->      Quadratic
+```
+
+**Identifying Runtime Complexity**
+
+```
+Iterating with a simple for loop through a single collection        -> Probably O(n)
+Iterating through half a collection                                 -> Still O (n). There are no constants in runtime
+Iterating through two diff collections with separate for loops      -> O(n+m)
+Two nested for loops iterating over the same collection             -> O(n^2)
+Two nested for loops iterating over the diff collection             -> O(n*m)
+Sorting                                                             -> O(n*log(n))
+Seaching a sorted array?                                            -> O(log(n))
+
+```
+
+*Note: Space Complexity is a thing too. How much more memory is required by doubling the problem set?*
+
+### Debug
+
+1. Add a `debugger` statement in your function
+2. Call the function manually
+3. At the terminal, run `node inspect index.js`
+4. To continue execution of the file, press `c` then `enter`
+5. To lanch a `repl` session, type `repl` then `enter`
+6. To exit the `repl`, press Control + C

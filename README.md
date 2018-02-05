@@ -57,4 +57,14 @@ npm install && npm test
 6. To exit the `repl`, press Control + C
 
 ### Runtime complexity
+
 Describes the performance of an algorithm. 
+
+| Name                  | Expresion     | Description                                                        
+| --------------------- | ------------- | -------------------------------------------------
+| Constant Time         | `1`           | No matter how many elements we're working with, the <br/> algorithm/operation/whatever will always take the same <br/> amount of time
+| Logarithmic Time      | `log(n)`      | You have this if doubling the number of elements you <br/> are iterating over doesn't double the amount of work. <br/> Always assume that searching operations are log(n)
+| Linear Time           | `n`           | Iterating through all elements in a collection of data. If <br/> you see a for loop spanning from '0' to 'array.length', <br/> you probably have 'n', or linear runtime
+| Quasilinear Time      | `n * log(n)`  | You have this if doubling the number of elements you <br/> are iterating over doesn't double the amount of work. <br/> Always assume that any sorting operating is  n*log(n)
+| Quadratic Time        | `n^2`         | Every element in a collection has to be compared to <br/> every other element. `The handshake problem`
+| Exponential Time      | `2^n`         | If you add a 'single' element to a collection, the <br/> processing power required doubles.

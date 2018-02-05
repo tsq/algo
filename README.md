@@ -71,7 +71,7 @@ O(n^2)      ->      Quadratic
 
 ```
 Iterating with a simple for loop through a single collection        -> Probably O(n)
-Iterating through half a collection                                 -> Still O (n). There are no constants in runtime
+Iterating through half a collection                                 -> Still O(n)
 Iterating through two diff collections with separate for loops      -> O(n+m)
 Two nested for loops iterating over the same collection             -> O(n^2)
 Two nested for loops iterating over the diff collection             -> O(n*m)
@@ -80,7 +80,7 @@ Seaching a sorted array?                                            -> O(log(n))
 
 ```
 
-*Note: Space Complexity is a thing too. How much more memory is required by doubling the problem set?*
+*Note: Space Complexity is a thing too.*
 
 ### Debug
 

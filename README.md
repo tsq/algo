@@ -23,7 +23,7 @@ npm install && npm test
 * [Printing Steps](./steps/index.js)
 * [Two Sided Steps - Pyramids](./pyramid/index.js)
 * [Find The Vowels](./vowels/index.js)
-* [Enter the Matrix Spiral]()
+* [Enter the Matrix Spiral](./matrix/index.js)
 * [Runtime Complexity]()
 * [Runtime Complexity in Practice - Fibonacci]()
 * [The Queue]()
@@ -51,3 +51,5 @@ npm install && npm test
 4. To continue execution of the file, press `c` then `enter`
 5. To lanch a `repl` session, type `repl` then `enter`
 6. To exit the `repl`, press Control + C
+
+### Runtime complexity

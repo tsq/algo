@@ -29,14 +29,14 @@ npm install && npm test
 | [Fibonacci](./fib/index.js)                                           | :star: :star: :star:                                                     
 
 ### Data Structure
-Ways of organizing information with optimal 'runtime' complexity for adding or removing records.
+Ways of organizing information with optimal runtime complexity for adding or removing records.
 
 
 | Question                                                              | Difficulty                                                        
 | --------------------------------------------------------------------- | ------------------------
 | [The Queue](./queue/index.js)                                         | :star:                                                     
+| [Underwater Queue Weaving](./weave/index.js)                          | :star: :star: :star:                                                     
 
-* [Underwater Queue Weaving]()
 * [Stack Em Up With Stacks]()
 * [Two Become One]()
 * [Linked Lists]()
@@ -52,9 +52,10 @@ Ways of organizing information with optimal 'runtime' complexity for adding or r
 * [Sorting By Selection]()
 * [Ack, MergeSort]()
 
-##### Queue
 
-**FIFO**
+**Queue**
+
+FIFO
 
 Queue Class
 

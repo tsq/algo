@@ -26,6 +26,7 @@ npm install && npm test
 | [Two Sided Steps - Pyramids](./pyramid/index.js)                      | :star: :star: :star:                                                     
 | [Find The Vowels](./vowels/index.js)                                  | :star:                                                     
 | [Enter the Matrix Spiral](./matrix/index.js)                          | :star: :star: :star: :star:                                                      
+| [Fibonacci](./fib/index.js)                                           | :star: :star: :star:                                                     
 
 
 * [The Queue]()

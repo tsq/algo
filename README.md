@@ -36,7 +36,9 @@ Ways of organizing information with optimal runtime complexity for adding or rem
 | --------------------------------------------------------------------- | ------------------------
 | [The Queue](./queue/index.js)                                         | :star:                                                     
 | [Underwater Queue Weaving](./weave/index.js)                          | :star: :star: :star:                                                     
+| [The Stack](./stack/index.js)                                         | :star:                                                     
 
+* [Queue from Stack](./qfroms/index.js)
 * [Stack Em Up With Stacks]()
 * [Two Become One]()
 * [Linked Lists]()
@@ -64,6 +66,22 @@ Queue Class
             unshift  -> add
             push
 Array       pop      -> remove
+            splice
+            slice    
+
+```
+
+**Stack**
+
+FILO
+
+Stack Class
+
+```     
+            shift   
+            unshift  
+            push    -> push
+Array       pop     -> pop 
             splice
             slice    
 

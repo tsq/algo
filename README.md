@@ -12,18 +12,22 @@ npm install && npm test
 
 ### List
 
-* [String Reversal](./reversestring/index.js)
-* [Paldinromes](./paldinromes/index.js)
-* [Integer Reversal](./reversestring/index.js)
-* [MaxChars](./maxchar/index.js)
-* [The Classic FizzBuzz](./fizzbuzz/index.js)
-* [Array Chunking](./arraychunk/index.js)
-* [Anagrams](./anagrams/index.js)
-* [Sentence Capitalization](./capitalize/index.js)
-* [Printing Steps](./steps/index.js)
-* [Two Sided Steps - Pyramids](./pyramid/index.js)
-* [Find The Vowels](./vowels/index.js)
-* [Enter the Matrix Spiral](./matrix/index.js)
+| Question                                                              | Difficulty                                                        
+| --------------------------------------------------------------------- | ------------------------
+| [String Reversal](./reversestring/index.js)                           | :star:                                                     
+| [Paldinromes](./paldinromes/index.js)                                 | :star:                                                     
+| [Integer Reversal](./reversestring/index.js)                          | :star:                                                     
+| [MaxChars](./maxchar/index.js)                                        | :star:                                                     
+| [The Classic FizzBuzz](./fizzbuzz/index.js)                           | :star:                                                     
+| [Array Chunking](./arraychunk/index.js)                               | :star: :star:                                                    
+| [Anagrams](./anagrams/index.js)                                       | :star: :star:                                                   
+| [Sentence Capitalization](./capitalize/index.js)                      | :star:                                                     
+| [Printing Steps](./steps/index.js)                                    | :star: :star:                                                    
+| [Two Sided Steps - Pyramids](./pyramid/index.js)                      | :star: :star: :star:                                                     
+| [Find The Vowels](./vowels/index.js)                                  | :star:                                                     
+| [Enter the Matrix Spiral](./matrix/index.js)                          | :star: :star: :star: :star:                                                      
+
+
 * [Runtime Complexity]()
 * [Runtime Complexity in Practice - Fibonacci]()
 * [The Queue]()
@@ -53,3 +57,4 @@ npm install && npm test
 6. To exit the `repl`, press Control + C
 
 ### Runtime complexity
+Describes the performance of an algorithm. 

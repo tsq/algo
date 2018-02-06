@@ -73,3 +73,13 @@ describe('Clear', () => {
     expect(l.size()).toEqual(0);
   });
 });
+
+describe('RemoveFirst', () => {
+  test('removes the first node when the list has a size of one', () => {
+    const l = new List();
+    l.insertFirst('a');
+    l.removeFirst();
+    expect(l.size()).toEqual(0);
+    expect(l.getFirst()).toEqual(null);
+  });
+});

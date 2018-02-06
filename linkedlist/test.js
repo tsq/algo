@@ -82,4 +82,131 @@ describe('RemoveFirst', () => {
     expect(l.size()).toEqual(0);
     expect(l.getFirst()).toEqual(null);
   });
+
+  test('removes the first node when the list has a size of three', () => {
+    const l = new List();
+    l.insertFirst('c');
+    l.insertFirst('b');
+    l.insertFirst('a');
+    l.removeFirst();
+    expect(l.size()).toEqual(2);
+    expect(l.getFirst().data).toEqual('b');
+    l.removeFirst();
+    expect(l.size()).toEqual(1);
+    expect(l.getFirst().data).toEqual('c');
+  });
+});
+
+describe('RemoveLast', () => {
+  test('RemoveLast removes the last node when the list is empty', () => {
+    const l = new List();
+    expect(()=> {l.removeLast();}).not.toThrow();
+  });
+
+  test('RemoveLast removes the last node when list is length 1', () => {
+    const l = new List();
+    l.insertFirst('a');
+    l.removeLast();
+    expect(l.head).toEqual(null);
+  });
+
+  test('RemoveLast removes the last node when list is length 2', () => {
+    const l = new List();
+    l.insertFirst('b');
+    l.insertFirst('a');
+    l.removeLast();
+    expect(l.size()).toEqual(1);
+    expect(l.head.data).toEqual('a');
+  });
+
+  test('RemoveLast removes the last node when list is length 3', () => {
+    const l = new List();
+    l.insertFirst('c');
+    l.insertFirst('b');
+    l.insertFirst('a');
+    l.removeLast();
+    expect(l.size()).toEqual(2);
+    expect(l.getLast().data).toEqual('b');
+  });
+});
+
+describe('InsertLast', () => {
+  test('adds to the end of the list', () => {
+    const l = new List();
+    l.insertFirst('a');
+    l.insertLast('b');
+    expect(l.size()).toEqual(2);
+    expect(l.getLast().data).toEqual('b');
+  });
+});
+
+describe('GetAt', () => {
+  test('returns the node at given index', () => {
+    const l = new List();
+    expect(l.getAt(10)).toEqual(null);
+    l.insertLast(1);
+    l.insertLast(2);
+    l.insertLast(3);
+    l.insertLast(4);
+
+    expect(l.getAt(0).data).toEqual(1);
+    expect(l.getAt(1).data).toEqual(2);
+    expect(l.getAt(2).data).toEqual(3);
+    expect(l.getAt(3).data).toEqual(4);
+  });
+});
+
+describe('RemoveAt', () => {
+  test('removeAt doesnot crash on an empty list', () => {
+    const l = new List();
+    expect(() => {
+      l.removeAt(0);
+      l.removeAt(1);
+      l.removeAt(2);
+      l.removeAt(3);
+    }).not.toThrow();
+  });
+
+  test('removeAt doesnot crash on an index out of bounds', () => {
+    const l = new List();
+    expect(() => {
+      const l = new List();
+      l.insertFirst('a');
+      l.removeAt(1);
+    }).not.toThrow();
+  });
+
+  test('removeAt deletes the first node', () => {
+    const l = new List();
+    l.insertLast(1);
+    l.insertLast(2);
+    l.insertLast(3);
+    l.insertLast(4);
+    expect(l.getAt(0).data).toEqual(1);
+    l.removeAt(0);
+    expect(l.getAt(0).data).toEqual(2);
+  });
+
+  test('removeAt deletes the node at the given index', () => {
+    const l = new List();
+    l.insertLast(1);
+    l.insertLast(2);
+    l.insertLast(3);
+    l.insertLast(4);
+    expect(l.getAt(1).data).toEqual(2);
+    l.removeAt(1);
+    expect(l.getAt(1).data).toEqual(3);
+  });
+
+  test('removeAt works on the last node', () => {
+    const l = new List();
+    l.insertLast(1);
+    l.insertLast(2);
+    l.insertLast(3);
+    l.insertLast(4);
+
+    expect(l.getAt(3).data).toEqual(4);
+    l.removeAt(3);
+    expect(l.getAt(3).data).toEqual(null);
+  });
 });

@@ -164,6 +164,10 @@ class LinkedList {
       }
     }
   }
+
+  forEach() {
+
+  }
 }
 
 module.exports = { Node, LinkedList };

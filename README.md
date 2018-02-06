@@ -39,6 +39,7 @@ Ways of organizing information with optimal runtime complexity for adding or rem
 | [The Stack](./stack/index.js)                                         | :star:                                                     
 | [Queue from Stack](./qfroms/index.js)                                 | :star: :star: :star:                                                   
 | [Linked Lists](./linkedlist/index.js)                                 | :star: :star: :star: :star: :star:                                                   
+| [Back to Javascript - Events](./events/index.js)                      | :star: :star: :star:                                                  
 
 * [Find the Midpoint]()
 * [Circular Lists]()
@@ -47,7 +48,7 @@ Ways of organizing information with optimal runtime complexity for adding or rem
 * [Tree Width with Level Width]()
 * [My Best Friend, Binary Search Trees]()
 * [Validating a Binary Search Tree]()
-* [Back to Javascript - Events]()
+* [Back to Javascript - Events](./events/index.js)
 * [Sorting With BubbleSort]()
 * [Sorting By Selection]()
 * [Ack, MergeSort]()

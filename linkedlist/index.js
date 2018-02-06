@@ -132,12 +132,36 @@ class LinkedList {
     }
     while (node) {
       if (count === index) {
-        const curcNode = this.getAt(index);
         const prevNode = this.getAt(index - 1);
         const nextNode = this.getAt(index + 1);
+        if (nextNode) {
+          prevNode.next = nextNode;
+        } else {
+          prevNode.next = null;
+        }
       }
       node = node.next;
       count++;
+    }
+  }
+
+  insertAt(data, index) {
+    if (!this.head) {
+      this.head = new Node(data, null);
+    } else {
+      if (index === 0) {
+        const firstNode = this.getFirst();
+        this.head = new Node(data, firstNode);
+      } else {
+        if (this.size() - 1 <= index) {
+          const lastNode = this.getLast();
+          lastNode.next = new Node(data);
+        } else {
+          const currNode = this.getAt(index);
+          const prevNode = this.getAt(index - 1);
+          prevNode.next = new Node(data, currNode);
+        }
+      }
     }
   }
 }

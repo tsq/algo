@@ -265,7 +265,7 @@ describe('InsertAt', () => {
   });
 });
 
-describe.skip('ForEach', () => {
+describe('ForEach', () => {
   test('applies a transform to each node', () => {
     const l = new List();
     l.insertLast(1);
@@ -282,7 +282,7 @@ describe.skip('ForEach', () => {
   });
 });
 
-describe.skip('for...of works on an empty list', () => {
+describe('for...of works on an empty list', () => {
   const l = new List();
   expect(() => {
     for (let node of l) {}

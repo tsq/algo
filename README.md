@@ -48,7 +48,6 @@ Ways of organizing information with optimal runtime complexity for adding or rem
 * [Tree Width with Level Width]()
 * [My Best Friend, Binary Search Trees]()
 * [Validating a Binary Search Tree]()
-* [Back to Javascript - Events](./events/index.js)
 * [Sorting With BubbleSort]()
 * [Sorting By Selection]()
 * [Ack, MergeSort]()

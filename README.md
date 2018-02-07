@@ -40,8 +40,8 @@ Ways of organizing information with optimal runtime complexity for adding or rem
 | [Queue from Stack](./qfroms/index.js)                                 | :star: :star: :star:                                                   
 | [Linked Lists](./linkedlist/index.js)                                 | :star: :star: :star: :star: :star:                                                   
 | [Back to Javascript - Events](./events/index.js)                      | :star: :star: :star:                                                  
+| [Find the Midpoint](./midpoint/index.js)                              | :star: :star: :star: :star:                                                
 
-* [Find the Midpoint]()
 * [Circular Lists]()
 * [Step Back From teh Tail]()
 * [Building a Tree]()

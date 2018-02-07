@@ -7,6 +7,22 @@
 // q.add(1);
 // q.remove();    // returns 1
 
+/**
+ FIFO
+
+ Queue Class
+
+ ```
+ shift
+ unshift  -> add
+ push
+ Array       pop      -> remove
+ splice
+ slice
+
+ ```
+ */
+
 class Queue {
   constructor() {
     this.data = [];

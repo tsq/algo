@@ -10,6 +10,23 @@
 // s.pop();   // return 2
 // s.pop();   // return 1
 
+
+/*
+ FILO
+
+ Stack Class
+
+ ```
+ shift
+ unshift
+ push    -> push
+ Array       pop     -> pop
+ splice
+ slice
+
+ ```
+ */
+
 class Stack {
   constructor() {
     this.data = [];

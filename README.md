@@ -41,9 +41,9 @@ Ways of organizing information with optimal runtime complexity for adding or rem
 | [Linked Lists](./linkedlist/index.js)                                 | :star: :star: :star: :star: :star:                                                   
 | [Back to Javascript - Events](./events/index.js)                      | :star: :star: :star:                                                  
 | [Find the Midpoint](./midpoint/index.js)                              | :star: :star: :star: :star:                                                
+| [Circular Lists](./circular/index.js)                                 | :star: :star: :star: :star:                                                
+| [Step Back From teh Tail](./fromlast/index.js)                        | :star: :star: :star: :star:                                                
 
-* [Circular Lists]()
-* [Step Back From teh Tail]()
 * [Building a Tree]()
 * [Tree Width with Level Width]()
 * [My Best Friend, Binary Search Trees]()
@@ -51,43 +51,6 @@ Ways of organizing information with optimal runtime complexity for adding or rem
 * [Sorting With BubbleSort]()
 * [Sorting By Selection]()
 * [Ack, MergeSort]()
-
-
-**Queue**
-
-FIFO
-
-Queue Class
-
-```     
-            shift
-            unshift  -> add
-            push
-Array       pop      -> remove
-            splice
-            slice    
-
-```
-
-**Stack**
-
-FILO
-
-Stack Class
-
-```     
-            shift   
-            unshift  
-            push    -> push
-Array       pop     -> pop 
-            splice
-            slice    
-
-```
-
-**Linked Lists**
-
-
 
 ### Runtime complexity
 

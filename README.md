@@ -43,8 +43,8 @@ Ways of organizing information with optimal runtime complexity for adding or rem
 | [Find the Midpoint](./midpoint/index.js)                              | :star: :star: :star: :star:                                                
 | [Circular Lists](./circular/index.js)                                 | :star: :star: :star: :star:                                                
 | [Step Back From teh Tail](./fromlast/index.js)                        | :star: :star: :star: :star:                                                
+| [Building a Tree](./tree/index.js)                                    | :star: :star: :star: :star:
 
-* [Building a Tree]()
 * [Tree Width with Level Width]()
 * [My Best Friend, Binary Search Trees]()
 * [Validating a Binary Search Tree]()

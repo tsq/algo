@@ -11,6 +11,8 @@ npm install && npm test
 ```
 
 ### Algorithms
+A process or set of rules to be followed in calculations or other problem-solving operations
+
 
 | Question                                                              | Difficulty                                                        
 | --------------------------------------------------------------------- | ------------------------

@@ -47,11 +47,8 @@ Ways of organizing information with optimal runtime complexity for adding or rem
 | [Building a Tree](./tree/index.js)                                    | :star: :star: :star: :star:
 | [Tree Width with Level Width](./levelwidth/index.js)                  | :star: :star: :star: :star:
 | [Binary Search Trees](./bst/index.js)                                 | :star: :star: :star: :star:
-
-* [Validating a Binary Search Tree]()
-* [Sorting With BubbleSort]()
-* [Sorting By Selection]()
-* [Ack, MergeSort]()
+| [Validating a Binary Search Tree](./validate/index.js)                | :star: :star: :star: :star: :star:
+| [Sorting: Bubble, Select, and Merge](./sorting/index.js)              | :star: :star: :star: :star: :star:
 
 ### Runtime complexity
 

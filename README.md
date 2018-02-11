@@ -105,3 +105,6 @@ So, try and try !!!
 
 * [String Reversal](https://repl.it/@tsq/algo-reversestring)
 
+### LICENSE
+
+[MIT](./LICENSE)

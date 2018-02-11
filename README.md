@@ -1,7 +1,6 @@
 # About
 [![Build Status](https://circleci.com/gh/tsq-test/algo/tree/master.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/tsq-test/algo/tree/master)
 
-
 mastering data structures and algorithms using javascript
 
 ### Check 
@@ -47,8 +46,8 @@ Ways of organizing information with optimal runtime complexity for adding or rem
 | [Step Back From teh Tail](./fromlast/index.js)                        | :star: :star: :star: :star:                                                
 | [Building a Tree](./tree/index.js)                                    | :star: :star: :star: :star:
 | [Tree Width with Level Width](./levelwidth/index.js)                  | :star: :star: :star: :star:
+| [Binary Search Trees](./bst/index.js)                                 | :star: :star: :star: :star:
 
-* [My Best Friend, Binary Search Trees]()
 * [Validating a Binary Search Tree]()
 * [Sorting With BubbleSort]()
 * [Sorting By Selection]()
